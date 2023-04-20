@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+
+    </title>
+</head>
+<body>
+<ul id ="menu">
+    <li class ="menu-item"> 
+        <a href="index.html">menu-item</a>
+    </li>
+
+    <li class ="menu-item"> 
+        <a href="bio.html">bio</a>
+    </li>
+    <li class ="menu-item"> 
+        <a href="quiz.html">quiz</a>
+    </li>
+
+</ul>
+<h1>Why work in Tech</h1>
+
+<p> Here is a quiz about working in digital industries in GM</p>
+
+<form name = "Quiz">
+    <label for="name">Enter your name: </label><input type="text" name="name" size ="30">
+
+
+<p>What percentage of businesses in Greater Manchester believe developers will be key to their developers will be key to their growth over the next three years?</p>
+<input type="radio" name="growth" value="30%">
+<label for="30%">30%</label><br>
+<input type="radio" name="growth" value="50%">
+<label for="50%">50%</label><br>
+<input type="radio" name="growth" value="70%">
+<label for="70%">70%</label><br>
+
+<label for="talent">What percentage of businesses report the lack of experienced and quality talent as the biggest productivity challenge:</label>
+
+<input type="number" name="talent" min="0" max="100" step="10">
+
+</form>
+<br>
+<br>
+<button type="button" onclick="checkAnswers();">Submit</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
